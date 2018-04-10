@@ -17,3 +17,32 @@ body {
     width: 100%;
     align-items: center;
 }
+
+.directory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top-navset {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lower-navset {
+    display: flex;
+    flex-wrap: wrap;
+}
+.full-navset {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 10em;
+    width: 16em;
+}
+.nav-list {
+    padding: 0em 1em;
+    list-style: none;
+    width: 6em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
