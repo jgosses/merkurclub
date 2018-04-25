@@ -46,10 +46,29 @@ body {
     flex-wrap: nowrap;
 }
 .upcoming-event {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    height: 10em;
+    margin: 0em 1em;
 }
-h2 {
-    align-items: center;
-    max-width: 10em;
+.upcoming-title {
+    display: flex;
+    justify-content: center;
+    max-width: 16em;
+}
+.upcoming-content {
+    display: flex;
+    justify-content: center;
+}
+
+.mca-bio {
+    display: flex;
+    margin: 0em 2em;
+    max-width: 21em;
+}
+
+.link {
+    padding: 0 4px;
 }
 
