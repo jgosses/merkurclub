@@ -18,6 +18,29 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-size: 16pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.title-group {
+    display: flex;
+}
+
 .directory {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +58,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 10em;
+    height: 8em;
     width: 16em;
 }
 .nav-list {
@@ -72,6 +95,10 @@ body {
     padding: 0 4px;
 }
 
+.mca-logo {
+    width: 120.25px;
+    height: 59.5px;
+}
 
 /* Tablet Styles */
 
