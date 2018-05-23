@@ -41,6 +41,18 @@ a {
     display: flex;
 }
 
+.toggle-nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.title-line {
+    display: flex;
+    justify-content: center;
+    width: 6em;
+    margin: 0em 1em;
+}
+
 .directory {
     display: flex;
     flex-wrap: wrap;
@@ -96,8 +108,8 @@ a {
 }
 
 .mca-logo {
-    width: 120.25px;
-    height: 59.5px;
+    width: 160.25px;
+    height: 79.5px;
 }
 
 /* Tablet Styles */
@@ -105,7 +117,18 @@ a {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     body {
         background-color: yellow;
+        display: flex;
+        flex-direction: column;
     }
+
+    header {
+        width:48em;
+    }
+    .title-group {
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
 
 /* Desktop Styles */
@@ -113,6 +136,16 @@ a {
 @media only screen and (min-width: 961px) {
     body {
         background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        width:48em;
+    }
+    .title-group {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
