@@ -48,9 +48,56 @@ a {
     display: flex;
 }
 
-.toggle-nav-icon {
-    display: flex;
-    align-items: center;
+/* Dropdown Button */
+.dropbtn {
+    /*display: flex;
+    align-items: center;*/
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Dropdown Button on hover & focus*/
+.dropbtn:hover, .dropbtn:focus {
+    background-color: pink;
+}
+
+/* The container needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block; /* i think i may have a problem here bc flex?*/
+}
+
+/* Dropdown content - hidden by default */
+.dropdown-content {
+    /*display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;*/
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content li {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+    background-color: yellow;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
 }
 
 .title-line {
@@ -60,11 +107,6 @@ a {
     margin: 0em 1em;
 }
 
-.directory {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .top-navset {
     display: flex;
     flex-wrap: wrap;
